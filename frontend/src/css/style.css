@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.hidden {
+  display: none !important;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 1rem;
+}

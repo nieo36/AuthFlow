@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "ts-build": "tsc",
+    "deploy": "vite build --outDir ../backend/dist/public"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.2.2",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "leaflet": "^1.9.4"
+  }
+}
